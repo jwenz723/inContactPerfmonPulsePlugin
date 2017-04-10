@@ -10,17 +10,6 @@
       "defaultResolutionMS": "1000",
       "counter_path": "\\ASP.NET Apps v4.0.30319(_LM_W3SVC_1_ROOT_inContactAPI)\\Requests/Sec",
       "multiplier": "1.0"
-    },
-    {
-      "displayName": "TESTAPI Calls/Second",
-      "displayNameShort": "TESTAPI C/Sec",
-      "name": "TEST_WEB_API_CALLS_PER_SECOND",
-      "description": "TESTAPI Calls Per Second",
-      "unit": "number",
-      "defaultAggregate": "avg",
-      "defaultResolutionMS": "1000",
-      "counter_path": "\\ASP.NET Apps v4.0.30319(_LM_W3SVC_1_ROOT_inContactAPI)\\Requests/Sec",
-      "multiplier": "1.0"
     }
   ],
   "COR": [
