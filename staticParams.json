@@ -1,0 +1,149 @@
+﻿{
+  "API": [
+    {
+      "displayName": "API Calls/Second",
+      "displayNameShort": "API C/Sec",
+      "name": "INC_WEB_API_CALLS_PER_SECOND",
+      "description": "API Calls Per Second",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\ASP.NET Apps v4.0.30319(_LM_W3SVC_1_ROOT_inContactAPI)\\Requests/Sec",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "TESTAPI Calls/Second",
+      "displayNameShort": "TESTAPI C/Sec",
+      "name": "TEST_WEB_API_CALLS_PER_SECOND",
+      "description": "TESTAPI Calls Per Second",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\ASP.NET Apps v4.0.30319(_LM_W3SVC_1_ROOT_inContactAPI)\\Requests/Sec",
+      "multiplier": "1.0"
+    }
+  ],
+  "COR": [
+    {
+      "displayName": "Processor % Time",
+      "displayNameShort": "Proc % Time",
+      "name": "INC_PROCESSOR_PERCENT_PROCESSOR_TIME",
+      "description": "Percentage of CPU used",
+      "unit": "percent",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\processor(_total)\\% processor time",
+      "multiplier": "0.01"
+    },
+    {
+      "displayName": "Processing Threads Blocking",
+      "displayNameShort": "Processing Threads Blocking",
+      "name": "INC_PROCESSING_THREADS_BLOCKING",
+      "description": "Processing Threads Blocking",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\Processing Threads Blocking",
+      "multiplier": "0.01"
+    },
+    {
+      "displayName": "Actions Per Second",
+      "displayNameShort": "Actions Per Second",
+      "name": "INC_ACTIONS_PER_SECOND",
+      "description": "Actions Per Second",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\Actions Per Second",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "Business Units Throttled",
+      "displayNameShort": "Business Units Throttled",
+      "name": "INC_BUSINESS_UNITS_THROTTLED",
+      "description": "Business Units Throttled",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\Business Units Throttled",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "UCN Processing Threads",
+      "displayNameShort": "Processing Threads",
+      "name": "INC_PROCESSING_THREADS",
+      "description": "Processing Threads",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\Processing Threads",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "Processing Threads Busy",
+      "displayNameShort": "Processing Threads Busy",
+      "name": "INC_PROCESSING_THREADS_BUSY",
+      "description": "Processing Threads Busy",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\Processing Threads Busy",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "SQL Execute Time",
+      "displayNameShort": "SQL Execute Time",
+      "name": "INC_SQL_EXECUTE_TIME_AVERAGE",
+      "description": "SQL Execute Time",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\sql execute time average",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "Total Calls",
+      "displayNameShort": "Total Calls",
+      "name": "INC_TOTAL_CALLS",
+      "description": "Incontact Total Calls",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\total Calls",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "Total Scripts",
+      "displayNameShort": "Total Scripts",
+      "name": "INC_TOTAL_SCRIPTS",
+      "description": "Incontact Total Scripts",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\total Scripts",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "Total Sessions",
+      "displayNameShort": "Total Sessions",
+      "name": "INC_TOTAL_SESSIONS",
+      "description": "Incontact Total Sessions",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\total Sessions",
+      "multiplier": "1.0"
+    },
+    {
+      "displayName": "Media Servers",
+      "displayNameShort": "Media Servers",
+      "name": "INC_TOTAL_VOICE_PROVIDERS",
+      "description": "Total Voice Providers",
+      "unit": "number",
+      "defaultAggregate": "avg",
+      "defaultResolutionMS": "1000",
+      "counter_path": "\\UCN Virtual Cluster\\total voice providers",
+      "multiplier": "1.0"
+    }
+  ]
+}

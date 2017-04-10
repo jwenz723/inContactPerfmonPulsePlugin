@@ -1,0 +1,88 @@
+{
+
+  "name" : "inContactPerfmonPulsePlugin",
+  "version": "0.0.1",
+  "meterVersionRequired" : "4.2.0-611",
+  "unsupportedPlatforms" : [],
+  "tags": "Windows",
+  "description": "Extracts InContact metrics from Windows Performance Counters",
+  "icon": "icon.png",
+  "command": "PulsePlugin_Perfmon.exe",
+  "metrics": [],
+  "paramArray": {
+    "itemTitle": [
+      "displayName"
+    ],
+    "schemaTitle": "Counter"
+  },
+  "paramSchema": [
+    {
+      "title": "Name",
+      "name": "displayName",
+      "description": "The 'Name' that will be stored in Pulse for this metric.",
+      "type": "string",
+      "required": true
+    },
+    {
+      "title": "Short Name",
+      "name": "displayNameShort",
+      "description": "The 'Short name' that will be stored in Pulse for this metric.",
+      "type": "string",
+      "required": true
+    },
+    {
+      "title": "Identifier",
+      "name": "name",
+      "description": "The 'Identifier' that will be stored in Pulse for this metric.",
+      "type": "string",
+      "required": true
+    },
+    {
+      "title": "Description",
+      "name": "description",
+      "description": "The 'Description' that will be stored in Pulse for this metric.",
+      "type": "string",
+      "default": "Windows Performance Counter",
+      "required": true
+    },
+    {
+      "title": "Unit",
+      "name": "unit",
+      "description": "The 'Unit' that will be stored in Pulse for this metric.",
+      "type": { "enum" : [["Count of bytes", "bytecount"], ["Duration", "duration"], ["Number", "number"], ["Percentage", "percent"]]},
+      "default": "number",
+      "required": true
+    },
+    {
+      "title": "Default Aggregate",
+      "name": "defaultAggregate",
+      "description": "When graphing (or grouping at the 1 second interval) the aggregate function that makes most sense for this metric. Can be sum, avg, max, or min.",
+      "type": { "enum" : [["Average", "avg"], ["Maximum", "max"], ["Minimum", "min"], ["Sum", "sum"]]},
+      "default": "avg",
+      "required": true
+    },
+    {
+      "title": "Default Resolution",
+      "name": "defaultResolutionMS",
+      "description": "How often you want to collect this performance counter (in milliseconds). Default: 1000",
+      "type": "string",
+      "default": "1000",
+      "required": true
+    },
+    {
+      "title": "Counter Path",
+      "name": "counter_path",
+      "description": "The full path to the windows performance counter to collect.",
+      "type": "string",
+      "required": true
+    },
+    {
+      "title": "Multiplier",
+      "name": "multiplier",
+      "description": "A decimal value to multiply the counter value by. Default: 1",
+      "type": "string",
+      "default": "1.0",
+      "required": true
+    }
+  ]
+}
