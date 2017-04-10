@@ -1,7 +1,7 @@
 {
 
   "name" : "inContactPerfmonPulsePlugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "meterVersionRequired" : "4.2.0-611",
   "unsupportedPlatforms" : [],
   "tags": "Windows",
@@ -21,21 +21,21 @@
       "name": "displayName",
       "description": "The 'Name' that will be stored in Pulse for this metric.",
       "type": "string",
-      "required": true
+      "required": false
     },
     {
       "title": "Short Name",
       "name": "displayNameShort",
       "description": "The 'Short name' that will be stored in Pulse for this metric.",
       "type": "string",
-      "required": true
+      "required": false
     },
     {
       "title": "Identifier",
       "name": "name",
       "description": "The 'Identifier' that will be stored in Pulse for this metric.",
       "type": "string",
-      "required": true
+      "required": false
     },
     {
       "title": "Description",
@@ -43,7 +43,7 @@
       "description": "The 'Description' that will be stored in Pulse for this metric.",
       "type": "string",
       "default": "Windows Performance Counter",
-      "required": true
+      "required": false
     },
     {
       "title": "Unit",
@@ -51,7 +51,7 @@
       "description": "The 'Unit' that will be stored in Pulse for this metric.",
       "type": { "enum" : [["Count of bytes", "bytecount"], ["Duration", "duration"], ["Number", "number"], ["Percentage", "percent"]]},
       "default": "number",
-      "required": true
+      "required": false
     },
     {
       "title": "Default Aggregate",
@@ -59,7 +59,7 @@
       "description": "When graphing (or grouping at the 1 second interval) the aggregate function that makes most sense for this metric. Can be sum, avg, max, or min.",
       "type": { "enum" : [["Average", "avg"], ["Maximum", "max"], ["Minimum", "min"], ["Sum", "sum"]]},
       "default": "avg",
-      "required": true
+      "required": false
     },
     {
       "title": "Default Resolution",
@@ -67,14 +67,14 @@
       "description": "How often you want to collect this performance counter (in milliseconds). Default: 1000",
       "type": "string",
       "default": "1000",
-      "required": true
+      "required": false
     },
     {
       "title": "Counter Path",
       "name": "counter_path",
       "description": "The full path to the windows performance counter to collect.",
       "type": "string",
-      "required": true
+      "required": false
     },
     {
       "title": "Multiplier",
@@ -82,7 +82,7 @@
       "description": "A decimal value to multiply the counter value by. Default: 1",
       "type": "string",
       "default": "1.0",
-      "required": true
+      "required": false
     }
   ]
 }
