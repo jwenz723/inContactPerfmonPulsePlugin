@@ -3,8 +3,13 @@
 This repo is used as a custom BMC Pulse plugin. Currently the repository has to have public view rights in order for the plugin to be installable through the Pulse web GUI.
 This Pulse plugin is built to be a way to collect Windows performance counters that are not built into the default collection agent supplied by Pulse.
 
-## Dependencies
+### Prerequisites
+
 PulsePlugin_Perfmon.exe requires that .NET Framework 4 be installed.
+
+|     OS    | Linux | Windows | SmartOS | OS X |
+|:----------|:-----:|:-------:|:-------:|:----:|
+| Supported |       |    v    |         |      |
 
 ## Performance Counter Collection Setup
 
