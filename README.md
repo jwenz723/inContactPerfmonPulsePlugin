@@ -6,10 +6,7 @@ This Pulse plugin is built to be a way to collect Windows performance counters t
 ### Prerequisites
 
 PulsePlugin_Perfmon.exe requires that .NET Framework 4 be installed.
-
-|     OS    | Linux | Windows | SmartOS | OS X |
-|:----------|:-----:|:-------:|:-------:|:----:|
-| Supported |       |    v    |         |      |
+This plugin works only on windows machines.
 
 ## Performance Counter Collection Setup
 
