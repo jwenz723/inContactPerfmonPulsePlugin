@@ -21,7 +21,7 @@
       "unit": "percent",
       "defaultAggregate": "avg",
       "defaultResolutionMS": "1000",
-      "counter_path": "\\processor(_total)\\% processor time",
+      "counter_path": "\\Processor(_Total)\\% Processor Time",
       "multiplier": "0.01"
     },
     {
@@ -87,7 +87,7 @@
       "unit": "number",
       "defaultAggregate": "avg",
       "defaultResolutionMS": "1000",
-      "counter_path": "\\UCN Virtual Cluster\\sql execute time average",
+      "counter_path": "\\UCN Virtual Cluster\\SQL Execute Time Average",
       "multiplier": "1.0"
     },
     {
@@ -98,7 +98,7 @@
       "unit": "number",
       "defaultAggregate": "avg",
       "defaultResolutionMS": "1000",
-      "counter_path": "\\UCN Virtual Cluster\\total Calls",
+      "counter_path": "\\UCN Virtual Cluster\\Total Calls",
       "multiplier": "1.0"
     },
     {
@@ -109,7 +109,7 @@
       "unit": "number",
       "defaultAggregate": "avg",
       "defaultResolutionMS": "1000",
-      "counter_path": "\\UCN Virtual Cluster\\total Scripts",
+      "counter_path": "\\UCN Virtual Cluster\\Total Scripts",
       "multiplier": "1.0"
     },
     {
@@ -120,7 +120,7 @@
       "unit": "number",
       "defaultAggregate": "avg",
       "defaultResolutionMS": "1000",
-      "counter_path": "\\UCN Virtual Cluster\\total Sessions",
+      "counter_path": "\\UCN Virtual Cluster\\Total Sessions",
       "multiplier": "1.0"
     },
     {
@@ -131,7 +131,7 @@
       "unit": "number",
       "defaultAggregate": "avg",
       "defaultResolutionMS": "1000",
-      "counter_path": "\\UCN Virtual Cluster\\total voice providers",
+      "counter_path": "\\UCN Virtual Cluster\\Total Voice Providers",
       "multiplier": "1.0"
     }
   ]
